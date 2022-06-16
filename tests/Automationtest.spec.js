@@ -2,15 +2,13 @@
 const {test, expect} = require('@playwright/test');
 
  
- test.only('GlobalTest', async ({page})=>
+ test('GlobalTest', async ({page})=>
  
  {
  
    const tShirtButton = page.locator ("//header/div[3]/div[1]/div[1]/div[6]/ul[1]/li[3]/a[1]");
 
    const Faded_Short_Sleeve = page.locator("//a[normalize-space()='Faded Short Sleeve T-shirts']");
-
-   //const SelectSize = page.locator("#group_1");
 
    const FadedTshirtColor = page.locator("[name='Blue']");
 

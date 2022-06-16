@@ -117,7 +117,7 @@ const {test, expect} = require('@playwright/test');
    console.log("Actual First Line Total =" + ActualTotal1);
    
    await expect(page.locator("#total_product_price_1_4_0")).toHaveText("$33.02");
-   await page.pause();
+   // await page.pause();
 
 
       // Cart Total Assersion

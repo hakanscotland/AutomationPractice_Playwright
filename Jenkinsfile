@@ -4,11 +4,11 @@ pipeline {
         stage('Many tests') {
             agent {
                 docker {
-                    image 'mcr.microsoft.com/playwright:v1.17.1'
+                    image 'mcr.microsoft.com/playwright:v1.17.2-focal'
                 }
             }
             steps {
-                sh 'npx playwright test'
+                sh 'npx playwright test --headed'
             }
         }
     }

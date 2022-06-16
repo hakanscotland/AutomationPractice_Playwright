@@ -4,6 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hakanscotland/AutomationPractice_Playwright.git"
+  },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
